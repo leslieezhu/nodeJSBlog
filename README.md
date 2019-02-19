@@ -12,11 +12,10 @@
 ### 技术栈
 > + ThinkJS（ Node端框架） [官方网站](https://thinkjs.org/)
 > + jQuery.js（都懂得……）  [中文文档](http://jquery.cuishifeng.cn/)
-> + Django（前端模板）  [github](https://github.com/django/django)
+> + Django（前端模板）是一个高级Python Web框架  [github](https://github.com/django/django)
 
 ### 目录结构
 
-+ app    —— node端编译后文件夹，一般情况不需要关注
 + src    —— node端服务文件夹，以业务模块划分子文件夹
     - admin  -- 管理后台
     - common  -- 通用模块，放置主配置参数、boostrap adapter middleware service 等相关组件
@@ -25,9 +24,11 @@
         - config -- 框架需要的配置以及项目自定义的配置（多模块）  
         - controller -- 控制器层
         - service -- 服务层
+    - doc
     - home -- 前端默认模块
     - personal --  后端管理模块
-    - topic -- 话题模块     
+    - topic -- 话题模块
++ test
 + view   —— 静态页面文件夹，以业务模块划分子文件夹与src对应
 + www
     - static —— 静态资源文件
